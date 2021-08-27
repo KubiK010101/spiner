@@ -1,0 +1,127 @@
+.section-1{
+  padding: 120px 0 120px 0;
+  @media (max-width: 575.98px) {
+    padding: 60px 0 60px 0;
+  }
+  &__btn{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right:  auto;
+  }
+  &__video{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 120px;
+    @media (max-width: 575.98px) {
+      padding-bottom: 60px;
+      width: 100%;
+    }
+  }
+  &__col-sm{
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    width: 100%;
+  }
+  &__col {
+    margin-bottom: 41px;
+    @media (max-width: 767.98px) {
+      margin-bottom: 20px;
+    }
+    @media (max-width: 575.98px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  &__card {
+    height: 100%;
+    background-color: #F4F9FB;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 44px 50px 21px 37px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+    transition: all .3s;
+    &:hover{
+      background-color: #FBBC05;
+    }
+    @media (max-width: 767.98px) {
+      padding: 17px 16px 17px 15px;
+    }
+  }
+  &__card-img{
+    display: block;
+    text-align: left;
+  }
+  &__img {
+    flex: 0 0 118px;
+    max-width: 118px;
+    @media (max-width: 767.98px) {
+      flex: 0 0 89px;
+      max-width: 89px;
+    }
+  }
+
+  &__img-inner {
+    position: relative;
+    width: 76px;
+    height: 76px;
+    @media (max-width: 767.98px) {
+      width: 64px;
+      height: 64px;
+    }
+
+    img {
+      display: block;
+      object-fit: contain;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: all .3s;
+      &:last-child{
+        opacity: 0;
+      }
+    }
+  }
+
+  &__card:hover &__img-inner img:last-child{opacity: 1}
+  &__card:hover &__img-inner img:first-child{opacity: 0}
+
+  &__info {
+    flex: 1 1 auto;
+  }
+
+  &__card-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.05;
+    color: #1D1D1D;
+    margin-bottom: 19px;
+    display: block;
+    @media (max-width: 767.98px) {
+      font-size: 18px;
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__card-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.57;
+    color: #1D1D1D;
+    margin-bottom: 0;
+    @media (max-width: 767.98px) {
+      font-size: 12px;
+    }
+  }
+}

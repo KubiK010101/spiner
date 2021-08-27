@@ -1,0 +1,49 @@
+$src_font_1: '../../fonts/gilroy/';
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url($src_font_1 + 'Gilroy-Regular.eot');
+  src: url($src_font_1 + 'Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+  url($src_font_1 + 'Gilroy-Regular.woff2') format('woff2'),
+  url($src_font_1 + 'Gilroy-Regular.woff') format('woff'),
+  url($src_font_1 + 'Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url($src_font_1 + 'Gilroy-Medium.eot');
+  src: url($src_font_1 + 'Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+  url($src_font_1 + 'Gilroy-Medium.woff2') format('woff2'),
+  url($src_font_1 + 'Gilroy-Medium.woff') format('woff'),
+  url($src_font_1 + 'Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url($src_font_1 + 'Gilroy-Semibold.eot');
+  src: url($src_font_1 + 'Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
+  url($src_font_1 + 'Gilroy-Semibold.woff2') format('woff2'),
+  url($src_font_1 + 'Gilroy-Semibold.woff') format('woff'),
+  url($src_font_1 + 'Gilroy-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url($src_font_1 + 'Gilroy-Bold.eot');
+  src: url($src_font_1 + 'Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+  url($src_font_1 + 'Gilroy-Bold.woff2') format('woff2'),
+  url($src_font_1 + 'Gilroy-Bold.woff') format('woff'),
+  url($src_font_1 + 'Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
